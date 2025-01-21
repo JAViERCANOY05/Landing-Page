@@ -1,9 +1,48 @@
-header{
-    display: flex;
-    justify-content: center;
+/* remove-defualt size of broswers !  */
+*{
+    box-sizing: border-box;
 }
-img{
+body{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    box-shadow: 0 4px 8px -2px rgba(200, 200, 200, 0.2);
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.image-avatar{
     height: 32px;
     width: 32px;
+}
+.menu-hamburger{
+    height: 32px;
+    width: 32px;
+}
+.menu-logo{
+    display: flex;
     align-items: center;
+    gap: 12px;
+}
+.logo{
+    height: 29px;
+    width: 94px;
+}
+.hero-discriptions-p{
+    font-size: 32px;
+    font-weight: bold;
+}
+.button-get-started{
+    background-color:#09B451;
+    color: white;
+    width: 161px;
+    height: 60px;
+    border-radius: 4px;
+    border: none;
 }
