@@ -8,6 +8,59 @@ body{
     padding: 0;
     margin: 0;
 }
+.five-main{
+    grid-gap: 10px;
+    display: grid;
+    /* grid-template-columns: 50% 50%;  
+    grid-template-rows: auto auto ;  */
+    justify-items: center; 
+
+    grid-template-areas: "one-session two-session"
+    "three-session four-session"
+    "five-session five-session";
+grid-template-rows: 50px 50px auto;
+grid-template-columns: 50% 50% ; 
+
+}
+.one-session {
+    grid-area: one-session;
+}
+
+.two-session {
+    grid-area: two-session;
+}
+.three-session {
+    grid-area: three-session;
+}
+
+.four-session {
+    grid-area: four-session;
+}
+.five-session {
+    grid-area: five-session;
+    /* width: 100%; Ensure it spans full width */
+    text-align: center; /* Optional: Center content */
+}
+#session{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+padding: 10px;
+font-size: 14.32px;
+background-color: #DDFFFF;
+font-family: 'poppinsregular', serif;
+border-radius: 5px;
+
+
+
+}
+.Group{
+    width: 35.79px;
+    height: 35.79px;
+}   
 
 nav{
     background-color: white;
