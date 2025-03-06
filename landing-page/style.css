@@ -10,8 +10,18 @@ body{
 }
 .categories
 {
-    margin-top: 125px;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    
 }
+.main-images-cat {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+
 .heade-cat {
     display: flex;
     justify-content: space-evenly;
@@ -22,13 +32,9 @@ body{
   }
   .choose{
      text-wrap: wrap;
-    /* inline-size: inline-size ; */
-    /* overflow-wrap: break-word; */
-    /* word-break: break-all; */
     font-family: 'poppinsmedium', serif;
     font-weight: 100;
     line-height: 25px;
-    /* overflow-wrap: break-word; */
 
     
   }
@@ -37,7 +43,6 @@ body{
     padding-bottom: 25px;
     font-family: 'poppinsregular', serif;
     text-wrap: nowrap ;
-    /* align-self: center;  */
 
  }
 nav {
@@ -89,6 +94,7 @@ button {
     height: 60px;
     border-radius: 4px;
     border: none;
+        font-family: 'Courier New', Courier, monospace;
 }
 .hero-discriptions { 
     display: flex;
@@ -98,7 +104,6 @@ button {
 
 
 .hero-discriptions-p{
-    /* margin-right:60px; */
     font-size: 32px;
     font-family: 'poppinsbold', serif;
     word-wrap: break-word;
